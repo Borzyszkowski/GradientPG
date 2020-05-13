@@ -1,10 +1,11 @@
-Ta lista wzoruje się na [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning). Jednakże, ma ona skupiać głównie materiały pomagające rozpocząć prace w najróżniejszych dziedzinach uczenia maszynowego oraz uczenia głębokiego.
+Ta lista wzoruje się na [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning). Jednakże, ma ona skupiać głównie materiały pomagające rozpocząć prace w najróżniejszych dziedzinach uczenia maszynowego oraz uczenia głębokiego. Pogrubione pozycje są rekomendowane.
 
 # Spis treści
 - [Matematyka uczenia maszynowego](#matematyka-uczenia-maszynowego)
-- [ABC uczenia głębokiego](#abc-uczenia-glebokiego)
-- [Wizja komputerowa](#wizja-komputerowa)
+- [Uczenie głębokie](#uczenie-glebokie)
 - [Uczenie ze wzmocnieniem](#uczenie-ze-wzmocnieniem)
+- [Praktyczne porady](#praktyczne-porady)
+- [Zbiory danych](#zbiory-danych)
 
 ---
 
@@ -26,7 +27,7 @@ Ta lista wzoruje się na [Awesome Machine Learning](https://github.com/josephmis
 - [Machine Learning: A Bayesian and Optimization Perspective](google.com)
 - [Machine Learning: A Probabilistic Perspective](google.com)
 
-## ABC uczenia glebokiego
+## Uczenie glebokie
 
 #### Blogi
 - [Andrej Karpathy blog](http://karpathy.github.io/)
@@ -50,6 +51,11 @@ Ta lista wzoruje się na [Awesome Machine Learning](https://github.com/josephmis
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 
 #### Kursy oraz wykłady
+- **Stanford cs231n** - Convolutional Neural Networks for Visual Recognition:
+  - [Strona internetowa - notatki etc.](http://cs231n.github.io/)
+  - [Wykłady na YT z Andrejem Karpathym](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)
+- [MIT Deep Learning](https://deeplearning.mit.edu) - kolekcja kursów z MIT o uczeniu głębokim, głębokim uczeniu ze wzmocnieniem, autonomicznych pojazdach i sztucznej inteligencji zorganizowanych przez Lex-a Fridman-a.
+- [fast.ai](https://www.fast.ai) - Making neural nets uncool again.
 - [Machine Learning Crash Course with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course/)
 - [Deep Learning Summer School](http://videolectures.net/deeplearning2017_montreal/)
 
@@ -57,18 +63,6 @@ Ta lista wzoruje się na [Awesome Machine Learning](https://github.com/josephmis
 - [PyTorch](http://pytorch.org/tutorials/)
 - [TensorFlow](https://www.tensorflow.org/tutorials/)
 
----
-## Wizja komputerowa
-
-#### Poprzez uczenie głębokie
-- **Stanford cs231n** - Convolutional Neural Networks for Visual Recognition:
-  - [Strona internetowa - notatki etc.](http://cs231n.github.io/)
-  - [Wykłady na YT z Andrejem Karpathym](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)
-
-#### Poprzez uczenie maszynowe
-- [Welch Labs - Learning To See](https://www.youtube.com/playlist?list=PLiaHhY2iBX9ihLasvE8BKnS2Xg8AhY6iV)
-
----
 ## Uczenie ze wzmocnieniem
 
 #### Blogi
@@ -79,10 +73,8 @@ Ta lista wzoruje się na [Awesome Machine Learning](https://github.com/josephmis
 - [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)
 
 #### Książki
-
 - [Artificial Intelligence: A Modern Approach (3rd Edition)](https://dcs.abu.edu.ng/staff/abdulrahim-abdulrazaq/courses/cosc208/Artificial%20Intelligence%20A%20Modern%20Approach%20(3rd%20Edition).pdf)
 - [Reinforcement Learning: An Introduction (2nd Edition)](https://drive.google.com/file/d/1opPSz5AZ_kVa1uWOdOiveNiBFiEOHjkG/view?usp=sharing)
-
 
 #### Kursy Sztuczna Inteligencja
 - **Berkeley cs188** - Intro to AI:
@@ -90,8 +82,26 @@ Ta lista wzoruje się na [Awesome Machine Learning](https://github.com/josephmis
   - [Sylabus ze strony domowej](http://ai.berkeley.edu/course_schedule.html)
 
 #### Kursy Deep Reinforcement Learning
+- **[David Silver's Reinforcement Learning Course](https://www.davidsilver.uk/teaching/)**
+- [Kurs uczenie ze wzmocnieniem, Instytut Matematyczny PAN](https://sites.google.com/view/uczeniezewzmocnieniem/home)
 - [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/)
 - [Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/home)
 - [Reinforcement Learning Summer School](http://videolectures.net/deeplearning2017_montreal/)
 
+## Praktyczne porady
+- [37 Reasons why your Neural Network is not working](https://blog.slavv.com/37-reasons-why-your-neural-network-is-not-working-4020854bd607)
+- [My Neural Network isn't working! What should I do?](http://theorangeduck.com/page/neural-network-not-working)
+- [Practical Advice for Building Deep Neural Networks](https://pcc.cs.byu.edu/2017/10/02/practical-advice-for-building-deep-neural-networks/)
 
+## Zbiory danych
+- [Catalogue of datasets from DeepMind](https://deepmind.com/research?filters=%7B%22collection%22:%5B%22OpenSource%22%5D,%22tags%22:%5B%22Datasets%22%5D%7D)
+- [Open Images from Google AI - Now with Bounding-Boxes](https://ai.googleblog.com/2017/07/an-update-to-open-images-now-with.html)
+- [AVA: A Finely Labeled Video Dataset for Human Action Understanding](https://ai.googleblog.com/2017/10/announcing-ava-finely-labeled-video.html)
+- [Amazon product data](http://jmcauley.ucsd.edu/data/amazon/)
+- [Chest Xray photos](https://nihcc.app.box.com/v/ChestXray-NIHCC)
+- [HDR+ Burst Photography Dataset](https://ai.googleblog.com/2018/02/introducing-hdr-burst-photography.html)
+- [Tiny ImageNet Visual Recognition Challenge](https://tiny-imagenet.herokuapp.com)
+- [Seeds Data Set - Measurements of geometrical properties of kernels belonging to three different varieties of wheat](https://archive.ics.uci.edu/ml/datasets/seeds)
+- [The Olivetti faces dataset - varying the lighting, facial expressions and facial details](https://scikit-learn.org/0.19/datasets/olivetti_faces.html)
+- [Sloan Digital Sky Survey - the most detailed three-dimensional maps of the Universe ever made](https://www.sdss.org)
+- [WIDER FACE: A Face Detection Benchmark - 32,203 images and label 393,703 faces with a variability in scale, pose and occlusion](http://shuoyang1213.me/WIDERFACE/index.html)
